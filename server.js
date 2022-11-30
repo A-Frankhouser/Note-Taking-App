@@ -1,6 +1,6 @@
 // Import the routes and express
 const express = require('express');
-const apiRoutes = require('./Develop/routes/apiroutes');
+const apiRoutes = require('./Develop/routes/api/apiroutes');
 const htmlRoutes = require('./Develop/routes/htmlroutes');
 
 // Set the port
