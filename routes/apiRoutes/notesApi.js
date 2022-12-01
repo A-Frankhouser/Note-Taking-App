@@ -3,13 +3,15 @@ const fs = require('fs');
 const uuid = require('../../helpers/uuid');
 
 // get the notes from db
-router.get('/notes', ( req, res ) => {
-    let results = notes;
-    res.json(results);
+noteRoute.get('/notes', ( req, res ) => {
+    fs.readFile('db/db.json', (err, data) => {
+        let results = notes;
+        res.json(results);
+    })
 });
 
 // Creates new note and adds to existing array
-router.post('/notes', ( req, res ) => {
+noteRoute.post('/notes', ( req, res ) => {
 
     // fs to db.json
     fs.readFile('../db/db.json', (err, data) => {
