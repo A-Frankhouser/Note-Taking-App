@@ -1,6 +1,6 @@
-const router = require('express').Router();
+const noteRoute = require('express').Router();
 const fs = require('fs');
-const notes = require('../../db/db.json');
+const uuid = require('../../helpers/uuid');
 
 // get the notes from db
 router.get('/notes', ( req, res ) => {
