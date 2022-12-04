@@ -1,13 +1,15 @@
 // Import the routes and express
 const express = require('express');
+const PORT = process.env.port || 3001;
+const app = express()
+
 const apiRoutes = require('./routes/apiRoutes/notesApi.js');
-const htmlRoutes = require('./routes/htmlRoutes/index.js');
+const htmlRoutes = require('./routes/index.js');
 
 // Set the port
-const PORT = process.env.port || 3001;
 
 // Express
-const app = express();
+;
 
 // Middleware for parsing JSON and urlencoded form data
 app.use(express.static('public'));
