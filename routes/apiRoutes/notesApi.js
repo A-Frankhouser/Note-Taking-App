@@ -10,7 +10,6 @@ noteRoutes.get('/notes', (req, res) => {
     fs.readFile('db/db.json', (err, data) => {
         let results = JSON.parse(data);
         res.json(results);
-
     })
 });
 // ---------------------------------------------

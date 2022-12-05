@@ -4,7 +4,7 @@ const express = require('express');
 //links express and routes
 const PORT = process.env.PORT || 3001;
 const app = express();
-const apiRoutes = require("./routes/apiRoutes/noteRoutes.js");
+const apiRoutes = require("./routes/apiRoutes/notesApi.js");
 const htmlRoutes = require('./routes/htmlRoutes');
 
 app.use(express.static('public'));
