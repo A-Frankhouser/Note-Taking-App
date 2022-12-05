@@ -8,6 +8,15 @@ To save the note, you must have a title and description. Once you have both a sa
 If you want to create a new note, then click on the plus icon in the top right corner.
 ## <b><u> Screenshots:  </b></u>
 
+Home page:
+![Note Taking app landing page](./screenshots/Screenshot%20(19).png)
+
+![Where you take notes](./screenshots/Screenshot%20(20).png)
+
+![Writing a note](./screenshots/Screenshot%20(21).png)
+
+![Saved Note](./screenshots/Screenshot%20(22).png)
+
 ## <b><u> Links:  </b></u>
 Github: https://github.com/A-Frankhouser <br />
 Heroku: https://note-taker4230.herokuapp.com/
